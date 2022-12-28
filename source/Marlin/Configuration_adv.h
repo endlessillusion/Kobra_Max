@@ -1711,7 +1711,7 @@
  *
  * See https://marlinfw.org/docs/features/lin_advance.html for full instructions.
  */
-//#define LIN_ADVANCE
+#define LIN_ADVANCE
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
   #define LIN_ADVANCE_K 0       // Unit: mm compression per 1mm/s extruder speed
@@ -2515,7 +2515,7 @@
    * ## Also have to set E0 to 0 since it's a 2208 and on the same spi pin.
    * 
    */
-  #define  X_SLAVE_ADDRESS 3
+  #define  X_SLAVE_ADDRESS 0
   #define  Y_SLAVE_ADDRESS 1
   #define  Z_SLAVE_ADDRESS 2
   //#define X2_SLAVE_ADDRESS 0
@@ -2523,7 +2523,7 @@
   //#define Z2_SLAVE_ADDRESS 0
   //#define Z3_SLAVE_ADDRESS 0
   //#define Z4_SLAVE_ADDRESS 0
-  #define E0_SLAVE_ADDRESS 0
+  #define E0_SLAVE_ADDRESS 3
   //#define E1_SLAVE_ADDRESS 0
   //#define E2_SLAVE_ADDRESS 0
   //#define E3_SLAVE_ADDRESS 0
