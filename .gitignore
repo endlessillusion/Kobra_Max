@@ -47,6 +47,8 @@ Output
 DebugConfig
 JLinkLog.txt
 project/*.bin
+workspace/*.zip
+workspace/*.bin
 
 # Debugger files
 # define exception below if needed
