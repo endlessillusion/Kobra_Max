@@ -36,8 +36,8 @@
 #include "../../ui_api.h"
 
 #define DEVICE_NAME             "Anycubic Kobra Max"
-#define FIRMWARE_VER            "EndlessIllusion v1.0a"
-#define BUILD_VOLUME            "402*402*452 (mm)"
+#define FIRMWARE_VER            "EndlessIllusion v1.1"
+#define BUILD_VOLUME            "400*400*450 (mm)"
 #define TECH_SUPPORT            "github.com/endlessillusion/Kobra_Max"
 
 /****************** PAGE INDEX***********************/
